@@ -176,7 +176,7 @@ var generateOneNumber = function() {
     }
 
     // 随机生成 2 和 4
-    var randNumber = Math.random() < 0.5 ? 2 : 4
+    var randNumber = Math.random() < 0.5 ? 16 : 32
     // console.log('randNumber :', randNumber);
     // 显示数字
     board[randx][randy] = randNumber
